@@ -14,4 +14,6 @@ vim.keymap.set("n", "<leader>V", ":vsplit<CR>", opts)
 vim.keymap.set("n", "<esc>", ":noh<return><esc>", opts)
 
 
-
+-- terminal Utils
+vim.keymap.set("n","<Leader>tv",":botright vnew <Bar> :terminal<CR>", opts)
+vim.keymap.set("n","<Leader>th",":botright new <Bar> :terminal<cr>", opts)
