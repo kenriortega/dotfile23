@@ -37,4 +37,9 @@ return require('packer').startup(function(use)
     {'rafamadriz/friendly-snippets'}, -- Optional
   }
 }
+
+   -- rust plugins
+   use 'simrat39/rust-tools.nvim'
+   use 'puremourning/vimspector'
+   use 'voldikss/vim-floaterm'
 end)
